@@ -603,7 +603,7 @@ pl <- grid.arrange(plot.FTE,plot.PTE,plot.NW,plot.FTS,plot.R,plot.U,
 
 ```
     
-![png](/_img/posts/Unvaccinated-Britain/output_49_0.png)
+![png](/_img/posts/Unvaccinated-Britain/output_49_0.png){:class="img-responsive"}
 
 
 Once again, the reoccuring trend throughout the data has been broken. There is a far greater amount of people who firmly oppose taking the vaccine in comparison those who are uncertain about taking the vaccine amongst those who are retired. This follows another distinct trend which stems from the age variable.
