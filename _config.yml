@@ -131,9 +131,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/cantioseforever"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/cantioseforever"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/shuayb-ibrahim"
@@ -246,6 +246,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+collections:
+  code:
+    output: true
+    permalink: /:code/:path/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -280,3 +284,11 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: code
+    values:
+      layout: single
+      author_profile: false
+      share: true
