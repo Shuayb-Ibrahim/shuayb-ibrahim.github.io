@@ -1,5 +1,5 @@
 --- 
-title: The Ultimate Olympic Games Dashboard, visualising historical data about the modern olympic games <img src="/images/code/languages/powerbi.png" height=25 width=25 display=inline block><img src="/images/code/languages/sql.webp" height=60 width=40 display=inline block>
+title: The Ultimate Olympic Games Dashboard, visualising historical data about the modern olympic games <img src="/images/code/languages/powerbi.png" height=25 width=25><img src="/images/code/languages/sql.webp" height=60 width=40>
 layout: posts
 categories: 
   - Projects
