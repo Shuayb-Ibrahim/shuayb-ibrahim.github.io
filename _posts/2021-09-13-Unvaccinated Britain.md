@@ -1,5 +1,5 @@
 --- 
-title: Unvaccinated Britain, a deeper look at the vaccine holdouts in the UK  <img src="/images/code/languages/r.png" height=30 width=30 display=inline block>
+title: Unvaccinated Britain, a deeper look at the vaccine holdouts in the UK  <img src="/images/code/languages/r.PNG" height=30 width=30 display=inline-block>
 layout: posts 
 categories:
   - Projects
