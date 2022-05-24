@@ -9,7 +9,7 @@ tags:
   - Olympic Games 
 ---
 
-<img src="/images/posts/olympic-games-historical-analysis/dashboard-capture.PNG" width=400vh height=300vh ><img src="/images/posts/olympic-games-historical-analysis/sql-capture.PNG" width=400vh height=300vh>
+<img src="/images/posts/olympic-games-historical-analysis/dashboard-capture.PNG" width=400vh height=300vh display=inline><img src="/images/posts/olympic-games-historical-analysis/sql-capture.PNG" width=400vh height=300vh display=inline>
 
 ---
 ## Business Problem
