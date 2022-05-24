@@ -107,7 +107,8 @@ author:
   bio              : "Part time Business Intelligence Analyst. Full time Armchair Sports Statistician."
   location         : "London, UK"
   email            : Shuayb.Ibrahim@outlook.com
-  github           : Shuayb-Ibrahim         
+  github           : Shuayb-Ibrahim
+  linkedin         : shuayb-ibrahim         
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -124,9 +125,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
        #url: "https://github.com/"
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+       #url: "https://www.linkedin.com/in/shuayb-ibrahim/"
 
 # Site Footer
 footer:
