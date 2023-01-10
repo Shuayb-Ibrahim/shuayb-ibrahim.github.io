@@ -9,7 +9,7 @@ author_profile: true
 My name is Shuayb Ibrahim. I'm currently working as a Business Intelligence Analyst for Maginhawa Group, a small to medium size company in the hospitality sector and I am a Data Science Student at the University of London.
 
 ### Education
-<hr>I am an undergraduate student at the University of London, undertaking the Data Science and Busi‐ ness Analytics course with academic direction being provided by London School of Economics and Political Science. I completed A Levels in Computer Science, Mathematics and Spanish. I am also a certified entry-level python programmer.
+<hr>I am an undergraduate student at the University of London, undertaking the Data Science and Business Analytics course with academic direction being provided by London School of Economics and Political Science. I completed A Levels in Computer Science, Mathematics and Spanish. I am also a certified entry-level python programmer.
 
 ### My hobbies
 <hr>
