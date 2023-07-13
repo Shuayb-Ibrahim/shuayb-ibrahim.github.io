@@ -11,7 +11,7 @@ This page is home to all the code snippets that I find useful on a daily basis. 
 # SQL
 ## Table of Contents:
 ### SQL Basics
--  [SQL Syntax](/code/SQL_Syntax)
+-  [SQL Syntax](/code/SQL_Syntax.md)
 -  [SQL Numeric Data Types & Functions](/code/SQL_Numeric_Data_Types_&_Functions.md)
 -  [SQL String Data Types & Functions](/code/SQL_String_Data_Types_&_Functions.md)
 -  [SQL Data and Time Data Types & Functions](/code/SQL_Date_and_Time_Data_Types_&_Functions.md)
