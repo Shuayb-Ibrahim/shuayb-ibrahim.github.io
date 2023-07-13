@@ -1,9 +1,9 @@
 ---
 layout: archive
 title: "SQL Aggregate Functions"
-permalink: /code/00_SQL/SQL_Aggregate_Functions
+permalink: /code/SQL_Aggregate_Functions
 author_profile: true
-redirect_from: 00_SQL/SQL_Aggregate_Functions
+redirect_from: SQL_Aggregate_Functions
 ---
 
 # Aggregate Functions

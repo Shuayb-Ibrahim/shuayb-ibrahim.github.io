@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "SQL Wildcard Characters"
-permalink: /code/00_SQL/SQL_Wildcard_Characters
+permalink: /code/SQL_Wildcard_Characters
 author_profile: true
 redirect_from: SQL_Wildcard_Characters
 ---

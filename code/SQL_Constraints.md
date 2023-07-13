@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "SQL Constraints"
-permalink: /code/00_SQL/SQL_Constraints
+permalink: /code/SQL_Constraints
 author_profile: true
 redirect_from: SQL_Constraints
 ---

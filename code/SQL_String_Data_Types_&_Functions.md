@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "SQL String Data Type & Functions"
-permalink: /code/00_SQL/SQL_String_Data_Type_&_Functions
+permalink: /code/SQL_String_Data_Type_&_Functions
 author_profile: true
 redirect_from: SQL_String_Data_Type_&_Functions
 ---
