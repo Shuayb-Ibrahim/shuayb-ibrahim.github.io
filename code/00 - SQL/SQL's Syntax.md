@@ -1,4 +1,9 @@
-
+---
+title: Code Snippets
+layout: archive
+permalink: /code/
+author_profile: true
+---
 # SQL's Syntax
 SQL's syntax comprises several types of statements that allow you to perform various commands and operations.
 
