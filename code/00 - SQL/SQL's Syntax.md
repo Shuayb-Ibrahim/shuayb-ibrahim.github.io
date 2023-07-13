@@ -1,6 +1,6 @@
 ---
 title: SQL Syntax
-layout: archive
+layout: posts
 permalink: /code/
 author_profile: true
 ---
