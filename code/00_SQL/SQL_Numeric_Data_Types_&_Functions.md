@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "SQL Numeric Data Type & Functions"
-permalink: /code/SQL_Numeric_Data_Type_&_Functions
+permalink: /code/00_SQL/SQL_Numeric_Data_Type_&_Functions
 author_profile: true
 redirect_from: SQL_Numeric_Data_Type_&_Functions
 ---
