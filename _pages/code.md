@@ -10,6 +10,10 @@ This page is home to all the code snippets that I find useful on a daily basis. 
 
 # SQL
 ## Table of Contents:
+
+[TEST](/code/2022-01-13-hello_world.md)
+
+
 ### SQL Basics
 -  [SQL Syntax](/_pages/code.md)
 -  [SQL Numeric Data Types & Functions](/code/00%20-%20SQL/SQL%20Numeric%20Data%20Types%20%26%20Functions.md)
@@ -59,4 +63,3 @@ This page is home to all the code snippets that I find useful on a daily basis. 
 - [SQL subqueries](/code/07%20-%20Advanced%20SQL/)
 - [The CASE statement](/code/07%20-%20Advanced%20SQL/The%20CASE%20statement.md)
 
-[TEST](/code/2022-01-13-hello_world.md)
