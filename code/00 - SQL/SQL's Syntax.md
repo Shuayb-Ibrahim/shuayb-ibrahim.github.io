@@ -13,7 +13,7 @@ The main components are:
 - Data Control Language (DCL)
 - Transaction Control Language (TCL)
 
-<u>Data Definition Language</u>
+Data Definition Language
 The statements part of the Data Definition Language syntax are:
 - [[The CREATE statement]]
 - [[The ALTER statement]]
@@ -21,20 +21,20 @@ The statements part of the Data Definition Language syntax are:
 - [[The RENAME statement]]
 - [[The TRUNCATE statement]]
 
-<u>Data Manipulation Language</u>
+Data Manipulation Language
 The statements part of the Data Manipulation Language syntax are:
 - [[The SELECT statement]]
 - [[The INSERT statement]]
 - [[The UPDATE statement]]
 - [[The DELETE statement]]
 
-<u>Data Control Language</u>
+Data Control Language
 The Data Control Language is a syntax that consists of only two statements:
 - [[The GRANT statement]]
 - [[The REVOKE statement]]
 These statements allow us to manage the rights that users have in a database.
 
-<u>Transaction Control Language</u>
+Transaction Control Language
 The Transaction Control Language is a syntax that contains four statements:
 - [[The COMMIT statement]]
 - [[The ROLLBACK statement]]
