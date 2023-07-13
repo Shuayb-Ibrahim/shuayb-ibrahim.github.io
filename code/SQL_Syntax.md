@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "SQL Syntax"
-permalink: /code/SQL_Syntax
+permalink: /code/SQL_Syntax/
 author_profile: true
 redirect_from: SQL_Syntax
 ---
