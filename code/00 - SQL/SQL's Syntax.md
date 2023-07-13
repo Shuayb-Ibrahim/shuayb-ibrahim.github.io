@@ -1,12 +1,4 @@
----
-title: SQL Syntax
-layout: posts
-categories:
-  - Code Snippets
-tags:
-  - SQL
-collection: SQL
----
+
 # SQL's Syntax
 SQL's syntax comprises several types of statements that allow you to perform various commands and operations.
 
