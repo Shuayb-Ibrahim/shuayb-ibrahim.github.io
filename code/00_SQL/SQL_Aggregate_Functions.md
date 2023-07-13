@@ -1,3 +1,11 @@
+---
+layout: archive
+title: "SQL Aggregate Functions"
+permalink: /code/SQL_Aggregate_Functions
+author_profile: true
+redirect_from: SQL_Aggregate_Functions
+---
+
 # Aggregate Functions
 <u>The main aggregate functions in MySQL consist of:</u>
 -   [[The COUNT() function]] - counts the number of non-null records in a field

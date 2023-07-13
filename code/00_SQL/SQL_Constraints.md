@@ -1,3 +1,10 @@
+---
+layout: archive
+title: "SQL Constraints"
+permalink: /code/SQL_Constraints
+author_profile: true
+redirect_from: SQL_Constraints
+---
 # Constraints
 SQL constraints are used to specify rules for the data in a table.
 
