@@ -1,9 +1,9 @@
 ---
 layout: archive
 title: "SQL Syntax"
-permalink: /code/SQL_Syntax/
+permalink: /code/SQL_Syntax
 author_profile: true
-redirect_from: SQL_Syntax
+redirect_from: /SQL_Syntax
 ---
 
 SQL's syntax comprises several types of statements that allow you to perform various commands and operations.
