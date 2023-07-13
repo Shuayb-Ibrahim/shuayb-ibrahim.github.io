@@ -1,5 +1,5 @@
 ---
-title: Code Snippets
+title: SQL Syntax
 layout: archive
 permalink: /code/
 author_profile: true
