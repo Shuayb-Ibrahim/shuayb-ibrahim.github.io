@@ -11,7 +11,7 @@ This page is home to all the code snippets that I find useful on a daily basis. 
 # SQL
 ## Table of Contents:
 
-[TEST](/code/hello_world.md)
+[TEST](/code/hello_world)
 
 
 ### SQL Basics
