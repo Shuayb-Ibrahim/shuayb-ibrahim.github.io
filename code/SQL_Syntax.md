@@ -3,8 +3,6 @@ layout: archive
 title: "SQL Syntax"
 permalink: /code/SQL_Syntax
 author_profile: true
-date: 2019-06-01
-last_modified_at: 2019-06-01
 redirect_from: SQL_Syntax
 ---
 
