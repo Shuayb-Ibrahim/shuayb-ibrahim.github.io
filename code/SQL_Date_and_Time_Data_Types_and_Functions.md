@@ -1,9 +1,9 @@
 ---
 layout: archive
 title: "SQL Data and Time Data Type & Functions"
-permalink: /code/SQL_Data_and_Time_Data_Type_and_Functions
+permalink: /code/SQL_Data_and_Time_Data_Types_and_Functions
 author_profile: true
-redirect_from: SQL_Data_and_Time_Data_Type_and_Functions
+redirect_from: SQL_Data_and_Time_Data_Types_and_Functions
 ---
 
 **Data Type - Description**

@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "SQL String Data Type  Functions"
-permalink: /code/SQL_String_Data_Type_and_Functions
+title: "SQL String Data Type & Functions"
+permalink: /code/SQL_String_Data_Types_and_Functions
 author_profile: true
-redirect_from: SQL_String_Data_Type_and_Functions
+redirect_from: SQL_String_Data_Types_and_Functions
 ---
 
 **Data type - Description**                             
