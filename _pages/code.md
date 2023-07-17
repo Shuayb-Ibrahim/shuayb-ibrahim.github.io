@@ -9,7 +9,6 @@ This page is home to all the code snippets that I find useful on a daily basis. 
 <hr>
 
 # SQL
-## Table of Contents:
 ### SQL Basics
 -  [SQL Syntax](/code/SQL_Syntax)
 -  [SQL Numeric Data Types & Functions](/code/SQL_Numeric_Data_Types_and_Functions)
