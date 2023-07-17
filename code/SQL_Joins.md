@@ -1,4 +1,11 @@
-# JOINS
+---
+layout: archive
+title: "SQL Joins"
+permalink: /code/SQL_Joins
+author_profile: true
+redirect_from: SQL_Joins
+---
+
 A `JOIN` clause is used to combine rows from two or more tables, based on a related column between them.
 
 The types of Joins you will find in SQL are:

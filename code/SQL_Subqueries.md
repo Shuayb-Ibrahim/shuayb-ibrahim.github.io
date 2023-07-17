@@ -1,4 +1,11 @@
-# SUBQUERIES
+---
+layout: archive
+title: "SQL Subqueries"
+permalink: /code/SQL_Subqueries
+author_profile: true
+redirect_from: SQL_Subqueries
+---
+
 Subqueries are also known as inner queries, nested queries and inner select statements. They are ultimately queries embedded in a query. They are part of another query query called the outer query also known as the outer select statement.
 
 An example of a subquery with in keyword in the where clause of a select statement:

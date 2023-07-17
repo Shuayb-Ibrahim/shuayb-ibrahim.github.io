@@ -1,5 +1,12 @@
-# Privileges
-<u>The privileges that can be granted to the users are listed below along with description:</u>
+---
+layout: archive
+title: "Privileges"
+permalink: /code/Privileges
+author_profile: true
+redirect_from: Privileges
+---
+
+The privileges that can be granted to the users are listed below along with description:
 - `SELECT` - Select statement on tables
 - `INSERT` - Insert statement on the table
 - `DELETE` - Delete statement on the table

@@ -6,7 +6,6 @@ author_profile: true
 redirect_from: SQL_Data_and_Time_Data_Type_&_Functions
 ---
 
-# Date and Time Data Types
 **Data Type - Description**
 
 `DATE` - A date. Format: YYYY-MM-DD. The supported range is from '1000-01-01' to '9999-12-31'

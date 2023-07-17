@@ -5,7 +5,6 @@ permalink: /code/SQL_Numeric_Data_Type_&_Functions
 author_profile: true
 redirect_from: SQL_Numeric_Data_Type_&_Functions
 ---
-# Numeric Data Types
 **Data type - Description**                             
 
 `BIT(_size_)` - A bit-value type. The number of bits per value is specified in _size_. The _size_ parameter can hold a value from 1 to 64. The default value for _size_ is 1.

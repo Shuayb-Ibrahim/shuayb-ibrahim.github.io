@@ -5,7 +5,7 @@ permalink: /code/SQL_String_Data_Type_&_Functions
 author_profile: true
 redirect_from: SQL_String_Data_Type_&_Functions
 ---
-# String Data Types
+
 **Data type - Description**                             
 
 `CHAR(size)` - A FIXED length string (can contain letters, numbers, and special characters). The _size_ parameter specifies the column length in characters - can be from 0 to 255. Default is 1
