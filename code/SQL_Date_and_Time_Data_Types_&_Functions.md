@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "SQL Data and Time Data Type & Functions"
+title: "SQL Data and Time Data Type  Functions"
 permalink: /code/SQL_Data_and_Time_Data_Type_and_Functions
 author_profile: true
 redirect_from: SQL_Data_and_Time_Data_Type_and_Functions
