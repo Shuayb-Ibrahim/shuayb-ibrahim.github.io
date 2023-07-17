@@ -16,28 +16,28 @@ The main components are:
 
 ### Data Definition Language
 The statements part of the Data Definition Language syntax are:
-- [[The CREATE statement]]
-- [[The ALTER statement]]
-- [[The DROP statement]]
-- [[The RENAME statement]]
-- [[The TRUNCATE statement]]
+- [The CREATE statement](/code/The_CREATE_statement)
+- [The ALTER statement](/code/The_ALTER_statement)
+- [The DROP statement](/code/The_DROP_statement)
+- [The RENAME statement](/code/The_RENAME_statement)
+- [The TRUNCATE statement](/code/The_TRUNCATE_statement)
 
 ### Data Manipulation Language
 The statements part of the Data Manipulation Language syntax are:
-- [[The SELECT statement]]
-- [[The INSERT statement]]
-- [[The UPDATE statement]]
-- [[The DELETE statement]]
+- [The SELECT statement](/code/The_SELECT_statement)
+- [The INSERT statement](/code/The_INSERT_statement)
+- [The UPDATE statement](/code/The_UPDATE_statement)
+- [The DELETE statement](/code/The_DELETE_statement)
 
 ### Data Control Language
 The Data Control Language is a syntax that consists of only two statements:
-- [[The GRANT statement]]
-- [[The REVOKE statement]]
+- [The GRANT statement](/code/The_GRANT_statement)
+- [The REVOKE statement](/code/The_REVOKE_statement)
 These statements allow us to manage the rights that users have in a database.
 
 ### Transaction Control Language
 The Transaction Control Language is a syntax that contains four statements:
-- [[The COMMIT statement]]
-- [[The ROLLBACK statement]]
-- [[The SAVEPOINT statement]]
-- [[The SET TRANSACTION statement]]
+- [The COMMIT statement](/code/The_COMMIT_statement)
+- [The ROLLBACK statement](/code/The_ROLLBACK_statement)
+- [The SAVEPOINT statement](/code/The_SAVEPOINT_statement)
+- [The SET TRANSACTION statement](/code/The_SET_TRANSACTION_statement)
