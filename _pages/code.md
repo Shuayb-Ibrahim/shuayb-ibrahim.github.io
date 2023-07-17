@@ -12,9 +12,9 @@ This page is home to all the code snippets that I find useful on a daily basis. 
 ## Table of Contents:
 ### SQL Basics
 -  [SQL Syntax](/code/SQL_Syntax)
--  [SQL Numeric Data Types & Functions](/code/SQL_Numeric_Data_Types_&_Functions)
--  [SQL String Data Types & Functions](/code/SQL_String_Data_Types_&_Functions)
--  [SQL Data and Time Data Types & Functions](/code/SQL_Date_and_Time_Data_Types_&_Functions)
+-  [SQL Numeric Data Types & Functions](/code/SQL_Numeric_Data_Types_and_Functions)
+-  [SQL String Data Types & Functions](/code/SQL_String_Data_Types_and_Functions)
+-  [SQL Data and Time Data Types & Functions](/code/SQL_Date_and_Time_Data_Types_and_Functions)
 -  [SQL Wildcards](/code/SQL_Wildcard_Characters)
 -  [SQL Constraints](/code/SQL_Constraints)
 -  [SQL Aggregate Functions](/code/SQL_Aggregate_Functions)
