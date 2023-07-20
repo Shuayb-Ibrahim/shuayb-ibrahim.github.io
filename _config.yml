@@ -251,9 +251,6 @@ collections:
   code:
     output: true
     permalink: /:code/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/ 
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
