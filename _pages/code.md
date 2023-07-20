@@ -1,21 +1,8 @@
 ---
 title: Code Snippets
-layout: home
+layout: archive
 permalink: /code/
 author_profile: true
-gallery:
-  - url: 
-    image_path: /images/code/languages/python.png
-    alt: 
-    title: 
-  - url: 
-    image_path: /images/code/languages/R.png
-    alt: 
-    title: 
-  - url: 
-    image_path: /images/code/languages/sql.png
-    alt: 
-    title:
 ---
 
 This page is home to all the code snippets that I find useful on a daily basis. This will include snippets from Python, R and SQL, which are the programming langauges I use the most at work or for my personal projects.
