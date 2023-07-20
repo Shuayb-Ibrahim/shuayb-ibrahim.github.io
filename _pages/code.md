@@ -20,8 +20,6 @@ gallery:
 
 This page is home to all the code snippets that I find useful on a daily basis. This will include snippets from Python, R and SQL, which are the programming langauges I use the most at work or for my personal projects.
 <hr>
-{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
-
 
 # SQL
 ### SQL Basics

@@ -288,18 +288,10 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _code
-  - scope:
-      path: ""
-      type: code
-    values:
-      layout: single
-      author_profile: false
-      share: true
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: code
     values:
       layout: single
       author_profile: false
