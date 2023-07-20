@@ -4,18 +4,21 @@ layout: archive
 permalink: /code/
 author_profile: true
 gallery:
-  - url: /test/assets/images/unsplash-gallery-image-1.jpg
-    image_path: /test/assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /test/assets/images/unsplash-gallery-image-2.jpg
-    image_path: /test/assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /test/assets/images/unsplash-gallery-image-3.jpg
-    image_path: /test/assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+  - url: 
+    image_path: /images/code/languages/python.png
+    alt: ""
+    title: ""
+  - url: /images/code/languages/R.png
+    image_path: 
+    alt:
+    title: 
+  - url: /images/code/languages/sql.png
+    image_path: 
+    alt: 
+    title:
 ---
 
-This page is home to all the code snippets that I find useful on a daily basis. This will include snippets from Python, R and SQL which are the programming langauges I use the most at work or for my personal projects.
+This page is home to all the code snippets that I find useful on a daily basis. This will include snippets from Python, R and SQL, which are the programming langauges I use the most at work or for my personal projects.
 <hr>
 
 # SQL
