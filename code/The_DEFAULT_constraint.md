@@ -1,4 +1,11 @@
-# The DEFAULT constraint
+---
+layout: archive
+title: "The DEFAULT constraint"
+permalink: /code/The_DEFAULT_constraint
+author_profile: true
+redirect_from: The_DEFAULT_constraint
+---
+
 <u>The syntax when adding the Default constraint in [[The CREATE statement]]:</u>
 
 ```sql

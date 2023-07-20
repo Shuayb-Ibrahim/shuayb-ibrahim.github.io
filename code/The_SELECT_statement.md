@@ -1,4 +1,11 @@
-# The SELECT statement
+---
+layout: archive
+title: "The SELECT statement"
+permalink: /code/The_SELECT_statement
+author_profile: true
+redirect_from: The_SELECT_statement
+---
+
 <u>The SELECT-FROM statement</u>
 ```sql
 SELECT column_name, ...

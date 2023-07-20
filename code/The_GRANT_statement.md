@@ -1,4 +1,11 @@
-# The GRANT statement
+---
+layout: archive
+title: "The GRANT statement"
+permalink: /code/The_GRANT_statement
+author_profile: true
+redirect_from: The_GRANT_statement
+---
+
 To grant privileges to a user account, the GRANT statement is used. 
 
 <u>The syntax for the GRANT statement</u> 

@@ -1,4 +1,10 @@
-#  The NOT NULL constraint
+---
+layout: archive
+title: "The NOT NULL constraint"
+permalink: /code/The_NOT_NULL_constraint
+author_profile: true
+redirect_from: The_NOT_NULL_constraint
+---
 
 <u>The syntax when using the not null constraint in the [[The CREATE statement]]</u>:
 ```sql

@@ -1,4 +1,11 @@
-# The INSERT statement
+---
+layout: archive
+title: "The INSERT statement"
+permalink: /code/The_INSERT_statement
+author_profile: true
+redirect_from: The_INSERT_statement
+---
+
 <u>The INSERT INTO statement</u>
 ```sql
 -- listing specific columns

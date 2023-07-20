@@ -1,4 +1,11 @@
-# The PRIMARY KEY constraint
+---
+layout: archive
+title: "The Primary Key constraint"
+permalink: /code/The_PRIMARY_KEY_constraint
+author_profile: true
+redirect_from: The_PRIMARY_KEY_constraint
+---
+
 <u>The syntax to when creating a primary key in [[The CREATE statement]]:</u>
 
 ```sql

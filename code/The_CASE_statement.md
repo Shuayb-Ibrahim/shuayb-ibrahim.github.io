@@ -1,4 +1,11 @@
-# The CASE statement
+---
+layout: archive
+title: "The CASE statement"
+permalink: /code/The_CASE_statement
+author_profile: true
+redirect_from: The_CASE_statement
+---
+
 Control statements form the heart of most languages since they control the execution of other sets of statements. These are found in SQL too as Case-Switch statements.
 The `CASE` statement is SQL's way of handling if/then logic. The `CASE` statement is followed by at least one pair of `WHEN` and `THEN` statements—SQL's equivalent of IF/THEN in Excel. Because of this pairing, you might be tempted to call this SQL `CASE WHEN`, but `CASE` is the accepted term.
 

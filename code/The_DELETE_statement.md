@@ -1,4 +1,11 @@
-# The DELETE statement
+---
+layout: archive
+title: "The DELETE statement"
+permalink: /code/The_DELETE_statement
+author_profile: true
+redirect_from: The_DELETE_statement
+---
+
 <u>The DELETE-FROM-WHERE statement</u>
 ```sql
 -- Deletes a record

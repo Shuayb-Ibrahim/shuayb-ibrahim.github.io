@@ -1,4 +1,11 @@
-# The FOREIGN KEY constraint
+---
+layout: archive
+title: "The Foregin Key constraint"
+permalink: /code/The_FOREIGN_KEY_constraint
+author_profile: true
+redirect_from: The_FOREIGN_KEY_constraint
+---
+
 <u>The syntax to when creating a foreign key in [[The CREATE statement]]:</u>
 
 ```sql

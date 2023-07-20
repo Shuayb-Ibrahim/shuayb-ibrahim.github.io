@@ -1,4 +1,11 @@
-# The CREATE statement
+---
+layout: archive
+title: "The CREATE statement"
+permalink: /code/The_CREATE_statement
+author_profile: true
+redirect_from: The_CREATE_statement
+---
+
  <u>The syntax for creating a database:</u>
 ```sql
 	-- Creating a database 

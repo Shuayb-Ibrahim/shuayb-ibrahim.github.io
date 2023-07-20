@@ -1,4 +1,11 @@
-# The CHECK constraint
+---
+layout: archive
+title: "The CHECK constraint"
+permalink: /code/The_CHECK_constraint
+author_profile: true
+redirect_from: The_CHECK_constraint
+---
+
 The `Check` constraint is used to specify a predicate that every tuple must satisfy in a given relation. It limits the values that a column can hold in a relation.
 
 -   The predicate in check constraint can hold a sub query.

@@ -1,4 +1,10 @@
-# The ON DELETE CASCADE constraint
+---
+layout: archive
+title: "The ON DELETE CASCADE constraint"
+permalink: /code/The_ON_DELETE_CASCADE_constraint
+author_profile: true
+redirect_from: The_ON_DELETE_CASCADE_constraint
+---
 
 `ON DELETE CASCADE` constraint is used in MySQL to delete the rows from the child table automatically, when the rows from the parent table are deleted.
 
