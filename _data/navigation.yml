@@ -7,7 +7,7 @@ main:
    - title: "Projects"
      url: "/projects/"
    - title: "Code"
-     url: "/code/"
+     url: "/portfolio/" #code#
    - title: "CV"
      url: "Shuayb_Ibrahim_CV.pdf"
   # - title: "Sample Posts"
