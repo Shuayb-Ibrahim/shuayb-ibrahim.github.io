@@ -247,10 +247,13 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-collections:
+collections: 
   code:
     output: true
     permalink: /:code/:path/
+  portfolio: #---------------------------------CHANGE
+    output: true
+    permalink: /:collection/:path/  
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -289,6 +292,14 @@ defaults:
   - scope:
       path: ""
       type: code
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _portfolio ------------------------- CHANGE
+  - scope:
+      path: ""
+      type: portfolio
     values:
       layout: single
       author_profile: false
