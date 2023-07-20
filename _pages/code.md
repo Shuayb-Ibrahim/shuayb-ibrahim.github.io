@@ -10,7 +10,7 @@ This page is home to all the code snippets that I find useful on a daily basis. 
 
 # SQL
 ### SQL Basics
--  [SQL Syntax](/test/_portfolio/foo-bar-website.md)
+-  [SQL Syntax](/test/_portfolio/foo-bar-website)
 -  [SQL Numeric Data Types & Functions](/code/SQL_Numeric_Data_Types_and_Functions)
 -  [SQL String Data Types & Functions](/code/SQL_String_Data_Types_and_Functions)
 -  [SQL Data and Time Data Types & Functions](/code/SQL_Date_and_Time_Data_Types_and_Functions)

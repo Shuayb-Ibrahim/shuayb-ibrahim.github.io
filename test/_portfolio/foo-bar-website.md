@@ -21,7 +21,7 @@ gallery:
   - url: /test/assets/images/unsplash-gallery-image-3.jpg
     image_path: /test/assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
-pages: collection-archive
+layout: single
 permalink: /test/_portfolio/foo-bar-website
 author_profile: true
 redirect_from: foo-bar-website
