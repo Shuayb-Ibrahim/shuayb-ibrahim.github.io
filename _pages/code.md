@@ -1,6 +1,6 @@
 ---
 title: Code Snippets
-layout: archive
+layout: category
 permalink: /code/
 author_profile: true
 gallery:
