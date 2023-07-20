@@ -4,18 +4,18 @@ layout: archive
 permalink: /code/
 author_profile: true
 gallery:
-  - url: 
+  - url: "https://www.python.org"
     image_path: /images/code/languages/python.png
     alt: ""
     title: ""
-  - url: /images/code/languages/R.png
-    image_path: 
-    alt:
-    title: 
-  - url: /images/code/languages/sql.png
-    image_path: 
-    alt: 
-    title:
+  - url: "https://www.python.org"
+    image_path: /images/code/languages/R.png
+    alt: ""
+    title: ""
+  - url: "https://www.python.org"
+    image_path: /images/code/languages/sql.png
+    alt: ""
+    title: ""
 ---
 
 This page is home to all the code snippets that I find useful on a daily basis. This will include snippets from Python, R and SQL, which are the programming langauges I use the most at work or for my personal projects.
