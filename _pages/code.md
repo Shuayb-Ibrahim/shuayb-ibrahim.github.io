@@ -1,7 +1,7 @@
 ---
 title: Code Snippets
 layout: archive
-permalink: /code/
+permalink: /test/
 author_profile: true
 ---
 
