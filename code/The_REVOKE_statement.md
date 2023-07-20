@@ -1,11 +1,4 @@
----
-layout: archive
-title: "The REVOKE statement"
-permalink: /code/The_REVOKE_statement
-author_profile: true
-redirect_from: The_REVOKE_statement
----
-
+# The REVOKE statement
 The Revoke statement is used to revoke some or all of the privileges which have been granted to a user in the past.
 
 <u>The syntax for the REVOKE statement</u>

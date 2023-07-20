@@ -1,11 +1,4 @@
----
-layout: archive
-title: "The SAVEPOINT statement"
-permalink: /code/The_SAVEPOINT_statement
-author_profile: true
-redirect_from: The_RENAME_statement
----
-
+# The SAVEPOINT statement
 A SAVEPOINT is a point in a transaction when you can roll the transaction back to a certain point without rolling back the entire transaction.
 
 <u>The syntax for a SAVEPOINT command</u>
