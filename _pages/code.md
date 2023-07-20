@@ -1,7 +1,7 @@
 ---
 title: Code Snippets
-layout: category
-permalink: /code/
+layout: home
+permalink: /portfolio/
 author_profile: true
 gallery:
   - url: 
