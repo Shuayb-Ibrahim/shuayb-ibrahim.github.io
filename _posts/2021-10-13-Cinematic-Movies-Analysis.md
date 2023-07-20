@@ -1,5 +1,5 @@
 --- 
-title: Cinematic Movies Analysis, exploring the factors that lead to a blockbuster production  <img src="/images/code/languages/python.png" height=30 width=30>
+title: Cinematic Movies Analysis, exploring the factors that lead to a blockbuster production  <img src="/assets/images/code/languages/python.png" height=30 width=30>
 layout: posts
 categories:
   - Projects

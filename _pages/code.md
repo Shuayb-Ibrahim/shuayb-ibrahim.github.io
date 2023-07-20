@@ -22,6 +22,7 @@ This page is home to all the code snippets that I find useful on a daily basis. 
 <hr>
 {% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
 
+
 # SQL
 ### SQL Basics
 -  [SQL Syntax](/code/SQL_Syntax)

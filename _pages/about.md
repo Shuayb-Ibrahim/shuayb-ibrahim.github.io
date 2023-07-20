@@ -13,7 +13,7 @@ My name is Shuayb Ibrahim. I'm currently working as a Business Intelligence Anal
 
 ### My hobbies
 <hr>
-In my free time, I enjoy writing data journalism articles inspired by the work by FiveThirtyEight where I cover european club football, NBA basketball and NFL football with a focus on the analytical side of the different sports. I complete data science related courses on Udemy and Coursera to expand and refine my skillset. I use my new found skills to create projects solving data analytics case studies. I post and share useful code snippets with explanations to help fellow self taught analysts. 
+In my free time, I enjoy writing data journalistic articles inspired by the work by FiveThirtyEight where I cover european club football, NBA basketball and NFL football with a focus on the analytical side of the different sports. I complete data science related courses on Udemy and Coursera to expand and refine my skillset. I use my new found skills to create projects solving data analytics case studies. I post and share useful code snippets with explanations to help fellow self taught analysts. 
   
 
 
