@@ -251,6 +251,9 @@ collections:
   code:
     output: true
     permalink: /:code/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/ 
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -285,10 +288,18 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _portfolio
+  # _code
   - scope:
       path: ""
       type: code
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
     values:
       layout: single
       author_profile: false
