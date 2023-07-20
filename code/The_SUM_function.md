@@ -1,4 +1,11 @@
-# The SUM function
+---
+layout: archive
+title: "The SUM statement"
+permalink: /code/The_SUM_statement
+author_profile: true
+redirect_from: The_SUM_statement
+---
+
 The `SUM()` function returns the total sum of a numeric column. The sum function only works with numeric data.
 
 <u>The syntax for the `SUM()` function in [[The SELECT statement]] is:</u>
