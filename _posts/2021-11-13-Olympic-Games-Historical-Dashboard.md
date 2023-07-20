@@ -1,5 +1,5 @@
 --- 
-title: The Ultimate Olympic Games Dashboard, visualising historical data about the modern olympic games <img src="/images/code/languages/powerbi.png" height=25 width=25><img src="/images/code/languages/sql.webp" height=60 width=40>
+title: The Ultimate Olympic Games Dashboard, visualising historical data about the modern olympic games <img src="/assets/images/code/languages/powerbi.png" height=25 width=25><img src="/assets/images/code/languages/sql.webp" height=60 width=40>
 layout: posts
 categories: 
   - Projects
@@ -9,7 +9,7 @@ tags:
   - Olympic Games 
 ---
 
-<img src="/images/posts/olympic-games-historical-analysis/dashboard-capture.PNG" width=400vh height=300vh display=inline><img src="/images/posts/olympic-games-historical-analysis/sql-capture.PNG" width=400vh height=300vh display=inline>
+<img src="/assets/images/posts/olympic-games-historical-analysis/dashboard-capture.PNG" width=400vh height=300vh display=inline><img src="/assets/images/posts/olympic-games-historical-analysis/sql-capture.PNG" width=400vh height=300vh display=inline>
 
 ---
 ## Business Problem
