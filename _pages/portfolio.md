@@ -6,15 +6,15 @@ collection: portfolio
 entries_layout: grid
 classes: wide
 gallery:
-  - url: assets/images/code/languages/python.png
+  - url: _pages/code.md
     image_path: assets/images/code/languages/python.png
     alt: "Python programming"
     title: Python
-  - url: assets/images/code/languages/R.png
+  - url: 
     image_path: assets/images/code/languages/R.png
     alt: "R programming"
     title: R
-  - url: assets/images/code/languages/sql.webp
+  - url: 
     image_path: assets/images/code/languages/sql.webp
     alt: "SQL programming"
     title: SQL
