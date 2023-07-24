@@ -5,10 +5,8 @@ permalink: /code/
 author_profile: true
 ---
 
-This page is home to all the code snippets that I find useful on a daily basis. This will include snippets from Python, R and SQL, which are the programming langauges I use the most at work or for my personal projects.
 <hr>
 
-# SQL
 ### SQL Basics
 -  [SQL Syntax](/code/SQL_Syntax)
 -  [SQL Numeric Data Types & Functions](/code/SQL_Numeric_Data_Types_and_Functions)
