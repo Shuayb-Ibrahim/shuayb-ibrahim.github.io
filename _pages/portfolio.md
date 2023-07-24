@@ -1,8 +1,9 @@
 ---
 title: Portfolio
-layout: archive
+layout: archive #collection
 permalink: /portfolio/
 collection: portfolio
+author_profile: true
 entries_layout: grid
 classes: wide
 gallery:
@@ -17,4 +18,4 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery %}
