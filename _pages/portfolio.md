@@ -6,7 +6,7 @@ collection: portfolio
 entries_layout: grid
 classes: wide
 gallery:
-  - url: _pages/code.md
+  - url: _pages/code
     image_path: assets/images/code/languages/python.png
     alt: "Python programming"
     title: "Python"
