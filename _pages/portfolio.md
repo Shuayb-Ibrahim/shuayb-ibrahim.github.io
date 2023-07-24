@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-layout: single #splash #archive
+layout: archive #splash #archive
 permalink: /portfolio/
 collection: portfolio
 entries_layout: grid
@@ -26,7 +26,7 @@ feature_row:
     title: "SQL"
     excerpt: "My SQL code snippets"
     url: "https://shuayb-ibrahim.github.io/code/"
-    btn_label: "Read More"
+    btn_label: "Click Here"
     btn_class: "btn--inverse"
 ---
 This page is home to all the code snippets that I find useful on a daily basis. This will include snippets from Python, R and SQL, which are the programming langauges I use the most at work or for my personal projects.
