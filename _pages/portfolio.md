@@ -7,7 +7,7 @@ entries_layout: grid
 author_profile: true
 #classes: wide
 feature_row:
-  - image_path: /assets/images/code/languages/Python-logo-notext.svg.png
+  - image_path: /assets/images/code/languages/python.png
     alt: "Python programming"
     title: "Python"
     excerpt: "My Python code snippets"
