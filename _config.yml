@@ -301,6 +301,6 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: single
+      layout: splash
       author_profile: true
       share: true

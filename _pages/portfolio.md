@@ -30,4 +30,4 @@ feature_row:
     btn_class: "btn--inverse"
 ---
 This page is home to all the code snippets that I find useful on a daily basis. This will include snippets from Python, R and SQL, which are the programming langauges I use the most at work or for my personal projects.
-{% include feature_row type=center %}
+{% include feature_row %}
