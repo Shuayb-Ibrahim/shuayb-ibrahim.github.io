@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-layout: splash #splash #archive
+layout: single #splash #archive
 permalink: /portfolio/
 collection: portfolio
 entries_layout: grid
