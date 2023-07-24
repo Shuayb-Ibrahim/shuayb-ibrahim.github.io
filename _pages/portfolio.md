@@ -20,4 +20,4 @@ feature_row:
     exercpt: Home to all my SQL code snippets
 ---
 
-{% include gallery %}
+{% include feature_row %}
