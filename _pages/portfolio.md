@@ -9,15 +9,15 @@ gallery:
   - url: _pages/code.md
     image_path: assets/images/code/languages/python.png
     alt: "Python programming"
-    title: Python
+    title: "Python"
   - url: 
     image_path: assets/images/code/languages/R.png
     alt: "R programming"
-    title: R
+    title: "R"
   - url: 
     image_path: assets/images/code/languages/sql.webp
     alt: "SQL programming"
-    title: SQL
+    title: "SQL"
 ---
 
 {% include gallery %}
