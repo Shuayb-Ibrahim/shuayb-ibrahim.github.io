@@ -24,7 +24,7 @@ feature_row:
     alt: "SQL programming"
     title: "SQL"
     excerpt: "Home to all my SQL code snippets"
-    url: /_pages/code.md
+    url: "https://shuayb-ibrahim.github.io/code/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
