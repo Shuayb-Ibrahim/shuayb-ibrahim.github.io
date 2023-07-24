@@ -6,15 +6,18 @@ collection: portfolio
 entries_layout: grid
 classes: wide
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
+  - url: assets/images/code/languages/python.png
     image_path: assets/images/code/languages/python.png
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/code/languages/python.png
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/code/languages/python.png
-    alt: "placeholder image 3"
+    alt: "Python programming"
+    title: Python
+  - url: assets/images/code/languages/R.png
+    image_path: assets/images/code/languages/R.png
+    alt: "R programming"
+    title: R
+  - url: assets/images/code/languages/sql.webp
+    image_path: assets/images/code/languages/sql.webp
+    alt: "SQL programming"
+    title: SQL
 ---
 
 {% include gallery %}
