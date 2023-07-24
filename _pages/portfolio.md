@@ -1,9 +1,8 @@
 ---
 title: Portfolio
-layout: archive #collection
+layout: splash #collection #archive
 permalink: /portfolio/
 collection: portfolio
-author_profile: true
 entries_layout: grid
 classes: wide
 gallery:
