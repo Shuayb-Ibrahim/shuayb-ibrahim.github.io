@@ -24,7 +24,7 @@ feature_row:
     alt: "SQL programming"
     title: "SQL"
     excerpt: "Home to all my SQL code snippets"
-    url: "#test-link"
+    url: /_pages/code.md
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
