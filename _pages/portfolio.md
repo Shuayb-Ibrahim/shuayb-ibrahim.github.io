@@ -2,7 +2,7 @@
 title: Portfolio
 layout: single #splash #archive
 permalink: /portfolio/
-feature_row:
+gallery:
   - image_path: /assets/images/code/languages/python.png
     alt: "Python programming"
     title: "Python"
