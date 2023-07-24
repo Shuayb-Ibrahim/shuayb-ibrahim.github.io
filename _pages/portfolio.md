@@ -3,7 +3,7 @@ title: Portfolio
 layout: splash #splash #archive
 permalink: /portfolio/
 collection: portfolio
-entries_layout: grid
+#entries_layout: grid
 author_profile: true
 classes: wide
 feature_row:
