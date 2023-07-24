@@ -4,6 +4,7 @@ layout: splash #splash #archive
 permalink: /portfolio/
 collection: portfolio
 entries_layout: grid
+author_profile: true
 classes: wide
 feature_row:
   - image_path: /assets/images/code/languages/python.png
