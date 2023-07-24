@@ -1,7 +1,7 @@
 ---
 title: SQL Code Snippets
 layout: archive
-permalink: /portfolio/code/
+permalink: /code/
 author_profile: true
 ---
 
