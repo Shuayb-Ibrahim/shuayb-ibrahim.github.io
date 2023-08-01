@@ -17,14 +17,14 @@ feature_row:
     alt: "R programming"
     title: "R"
     excerpt: "R code snippets & visualisations"
-    url: "#test-link"
+    url: "https://shuayb-ibrahim.github.io/r/"
     btn_label: "Read Code"
     btn_class: "btn--inverse"
   - image_path: /assets/images/code/languages/sql.jpg
     alt: "SQL programming"
     title: "SQL"
     excerpt: "SQL code snippets & visualisations"
-    url: "https://shuayb-ibrahim.github.io/code/"
+    url: "https://shuayb-ibrahim.github.io/sql/"
     btn_label: "Read Code"
     btn_class: "btn--inverse"
 ---
