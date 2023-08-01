@@ -5,21 +5,21 @@ author_profile: true
 related: true
 permalink: /portfolio/
 feature_row:
-  - image_path: /assets/images/code/languages/Python-logo.png
+  - image_path: /assets/images/code/languages/python.png
     alt: "Python programming"
     title: "Python"
     excerpt: "My Python code snippets"
     url: "#test-link"
     btn_label: "Read Code"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/code/languages/r-language-logo.png
+  - image_path: /assets/images/code/languages/R-icon.png
     alt: "R programming"
     title: "R"
     excerpt: "My R code snippets"
     url: "#test-link"
     btn_label: "Read Code"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/code/languages/sql.png
+  - image_path: /assets/images/code/languages/sql-icon.png
     alt: "SQL programming"
     title: "SQL"
     excerpt: "My SQL code snippets"
