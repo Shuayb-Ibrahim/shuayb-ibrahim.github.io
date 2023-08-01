@@ -1075,7 +1075,7 @@ plt.show()
 
 
     
-![png](/images/posts/movies-casual-analysis/output_28_0.png)
+![png](/assets/images/posts/movies-casual-analysis/output_28_0.png)
     
 
 
@@ -1102,7 +1102,7 @@ sns.regplot(x="budget",y="gross",data=df,scatter_kws={"color":"blue"},line_kws={
 
 
     
-![png](/images/posts/movies-casual-analysis/output_31_1.png)
+![png](/assets/images/posts/movies-casual-analysis/output_31_1.png)
     
 
 
@@ -1394,7 +1394,7 @@ plt.show()
 
 
     
-![png](/images/posts/movies-casual-analysis/output_36_0.png)
+![png](/assets/images/posts/movies-casual-analysis/output_36_0.png)
     
 
 

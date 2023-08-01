@@ -409,7 +409,7 @@ pl
 
 
     
-![png](/images/posts/unvaccinated-britain/output_38_1.png)
+![png](/assets/images/posts/unvaccinated-britain/output_38_1.png)
 
 
 Looking at this map, we are capable of seeing the population level of all vaccine holdouts in the survey. We can see that the South East region is clearly the region with the most unvaccinated people in the UK, second would be the North West region and closely followed by London as the third most populated region. 
@@ -460,7 +460,7 @@ grid.arrange(pl_certain,pl_uncertain,ncol=1,nrow=2,top=textGrob(expression(bold(
 
 
     
-![png](/images/posts/unvaccinated-britain/output_40_0.png)
+![png](/assets/images/posts/unvaccinated-britain/output_40_0.png)
     
 
 
@@ -497,7 +497,7 @@ grid.arrange(pl1,pl3,pl2,top=textGrob(expression(bold("Population of vaccine hol
 
 
     
-![png](/images/posts/unvaccinated-britain/output_43_0.png)
+![png](/assets/images/posts/unvaccinated-britain/output_43_0.png)
     
 
 
@@ -555,7 +555,7 @@ pl
 
 
     
-![png](/images/posts/unvaccinated-britain/output_46_0.png)
+![png](/assets/images/posts/unvaccinated-britain/output_46_0.png)
     
 
 
@@ -610,7 +610,7 @@ pl <- grid.arrange(plot.FTE,plot.PTE,plot.NW,plot.FTS,plot.R,plot.U,
 ```
 
 
-![png](/images/posts/unvaccinated-britain/output_49_0.png)
+![png](/assets/images/posts/unvaccinated-britain/output_49_0.png)
 
 
 Once again, the reoccuring trend throughout the data has been broken. There is a far greater amount of people who firmly oppose taking the vaccine in comparison those who are uncertain about taking the vaccine amongst those who are retired. This follows another distinct trend which stems from the age variable.
