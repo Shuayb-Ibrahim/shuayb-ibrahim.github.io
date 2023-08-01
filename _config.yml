@@ -296,6 +296,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      related: true
   # _portfolio ------------------------- CHANGE
   - scope:
       path: ""
