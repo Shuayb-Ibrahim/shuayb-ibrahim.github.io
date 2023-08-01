@@ -3,6 +3,7 @@ title: Portfolio
 layout: single #splash #archive
 author_profile: true
 related: true
+classes: wide
 permalink: /portfolio/
 feature_row:
   - image_path: /assets/images/code/languages/python.png

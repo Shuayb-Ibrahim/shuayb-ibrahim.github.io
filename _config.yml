@@ -297,6 +297,7 @@ defaults:
       author_profile: true
       share: true
       related: true
+      classes: wide
   # _portfolio ------------------------- CHANGE
   - scope:
       path: ""
@@ -306,3 +307,4 @@ defaults:
       author_profile: true
       share: true
       related: true
+      classes: wide
