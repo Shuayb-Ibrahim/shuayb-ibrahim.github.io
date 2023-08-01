@@ -9,7 +9,7 @@ feature_row:
   - image_path: /assets/images/code/languages/python.png
     alt: "Python programming"
     title: "Python"
-    excerpt: "Python code snippets & visualisations"
+    excerpt: "Py Code snippets & visualisations"
     url: "#test-link"
     btn_label: "Read Code"
     btn_class: "btn--inverse"
