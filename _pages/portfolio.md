@@ -17,7 +17,7 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/code/languages/sql.png.webp
+  - image_path: /assets/images/code/languages/sql.png
     alt: "SQL programming"
     title: "SQL"
     excerpt: "My SQL code snippets"
