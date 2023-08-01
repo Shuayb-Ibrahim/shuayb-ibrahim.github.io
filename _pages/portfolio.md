@@ -10,7 +10,7 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/code/languages/R.png
+  - image_path: /assets/images/code/languages/r-language-logo.png
     alt: "R programming"
     title: "R"
     excerpt: "My R code snippets"
