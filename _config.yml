@@ -298,7 +298,7 @@ defaults:
       share: true
       related: true
       classes: wide
-  # _portfolio ------------------------- CHANGE
+  # _portfolio 
   - scope:
       path: ""
       type: portfolio
