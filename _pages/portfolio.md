@@ -2,6 +2,7 @@
 title: Portfolio
 layout: single #splash #archive
 author_profile: true
+related: true
 permalink: /portfolio/
 feature_row:
   - image_path: /assets/images/code/languages/python.png
