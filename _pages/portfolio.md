@@ -19,7 +19,7 @@ feature_row:
     url: "#test-link"
     btn_label: "Read Code"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/code/languages/sql-icon.png
+  - image_path: /assets/images/code/languages/sql.jpg
     alt: "SQL programming"
     title: "SQL"
     excerpt: "My SQL code snippets"
