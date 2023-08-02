@@ -248,9 +248,9 @@ tag_archive:
   type: liquid
   path: /tags/
 collections: 
-  code:
+  sql:
     output: true
-    permalink: /:code/:path/
+    permalink: /:sql/:path/
   portfolio: #---------------------------------CHANGE
     output: true
     permalink: /:collection/:path/  

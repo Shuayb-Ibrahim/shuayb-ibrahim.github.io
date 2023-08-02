@@ -1,4 +1,11 @@
-# The ALTER statement
+---
+layout: archive
+title: "The ALTER statement"
+permalink: /code/The_ALTER_statement
+author_profile: true
+redirect_from: The_ALTER_statement
+---
+
 <u>The syntax to add a column to an already existing table:</u>
 ```sql
 -- Adding a column to the table 
