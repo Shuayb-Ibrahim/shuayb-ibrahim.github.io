@@ -3,6 +3,7 @@ title: Code Snippets
 layout: single #splash #archive
 author_profile: true
 related: false
+comments: true
 classes: wide
 permalink: /portfolio/
 feature_row:
@@ -31,3 +32,4 @@ feature_row:
 
 {% include feature_row type=center %}
 This page is home to all the code snippets that I find useful on a daily basis. This will include snippets from Python, R and SQL, which are the programming langauges I use the most at work or for my personal projects.
+
