@@ -1,4 +1,11 @@
-# The UNIQUE constraint
+---
+layout: archive
+title: "The UNIQUE constraint"
+permalink: /code/The_UNIQUE_constraint
+author_profile: true
+redirect_from: The_UNIQUE_constraint
+---
+
 <u>The syntax when using unique in [[The CREATE statement]]:</u>
 
 ```sql

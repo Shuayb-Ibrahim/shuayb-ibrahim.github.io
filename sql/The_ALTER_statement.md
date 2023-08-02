@@ -24,6 +24,7 @@ DROP COLUMN column_name;
 The `MODIFY` keyword allows us to manipulate two properties:
 1. The data type
 2. The constraints
+
 ```sql
 -- Changing a column in the table
 ALTER TABLE table_name
