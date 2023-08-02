@@ -1,0 +1,32 @@
+---
+title: "Exploring data"
+author: "Shuayb Ibrahim"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exploring Data
+
+There are three common functions that are really good for exploring data:
+
+-   The head() function which lets you look at the first few rows of the data-set
+
+    ```{r}
+    head(dataset_name)
+    ```
+
+-   The names() function which lets you look at the names of the columns of the data-set
+
+    ```{r}
+    names(dataset_name)
+    ```
+
+-   The View() function which allows you to view the entire data-set in a separate window
+
+    ```{r}
+    View(dataset_name)
+    ```

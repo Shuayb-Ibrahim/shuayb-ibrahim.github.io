@@ -1,0 +1,46 @@
+---
+title: "Workflow Basics"
+author: "Shuayb Ibrahim"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Coding Basics
+
+**Mathematical calculations:**
+
+```{r}
+1/200 * 30
+(342+34+4)/5
+cos(2/sqrt(2))
+```
+
+**Creating new objects:**
+
+```{r}
+x <- 1 + 1
+```
+
+All R statements where you create objects, assignment statements, have the same form (use snake_case when naming objects):
+
+```{r}
+object_name <- value
+```
+
+## Calling Functions
+
+Built-in functions in R are called like this:
+
+```{r}
+function_name(arg1= val1, arg2 = val1, ...)
+```
+
+For example, if we want to call upon the seq() function to generate a sequence of numbers from 1 to 10:
+
+```{r}
+seq(1,10)
+```

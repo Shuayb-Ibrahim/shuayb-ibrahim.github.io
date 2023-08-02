@@ -1,0 +1,26 @@
+---
+title: "2.3 - Packages"
+author: "Shuayb Ibrahim"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Packages
+
+### Installing a new package
+
+```{r}
+# Syntax for installing packages
+install.packages("[package]")
+```
+
+### Loading a package
+
+```{r}
+#Syntax for loading a package
+library("[package]")
+```
