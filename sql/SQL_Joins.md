@@ -17,7 +17,7 @@ The types of Joins you will find in SQL are:
 -   `SELF JOIN`: Returns records that have matching values in the same table
 -   `UNION/UNION ALL`: Combines the result-set of two or more SELECT statements.
 
-![[different_joins_in_sql.PNG]]
+![SQL Joins](different_joins_in_sql.png)
 ###### Inner Join
 
 <u>The syntax for an inner join with two or more tables in [[The SELECT statement]]:</u>
