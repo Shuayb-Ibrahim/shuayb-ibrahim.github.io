@@ -11,6 +11,10 @@ There are three common functions that are really good for exploring data:
  ```r
  head(dataset_name)
  ```
+ - The tail() function which lets you look at the last few rows of the data-set
+ ```r
+ tail(dataset_name)
+ ```
 - The names() function which lets you look at the names of the columns of the data-set
  ```r
  names(dataset_name)
