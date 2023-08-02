@@ -11,7 +11,7 @@ There are three common functions that are really good for exploring data:
  ```r
  head(dataset_name)
  ```
- - The tail() function which lets you look at the last few rows of the data-set
+- The tail() function which lets you look at the last few rows of the data-set
  ```r
  tail(dataset_name)
  ```
