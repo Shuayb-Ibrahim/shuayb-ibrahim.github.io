@@ -8,7 +8,7 @@ author_profile: true
 <hr>
 
 ### R Basics
-- [Coding Basics](/r/R-Snippets/Coding-Basics)
-- [Exploring Data](/r/R-Snippets/Exploring-Data)
-- [Packages](/r/R-Snippets/Packages)
+- [Coding Basics](/r/Coding-Basics)
+- [Exploring Data](/r/Exploring-Data)
+- [Packages](/r/Packages)
 
