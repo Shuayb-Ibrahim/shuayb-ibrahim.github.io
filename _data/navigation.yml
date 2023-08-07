@@ -6,6 +6,8 @@ main:
      url: "/about/" #https://mmistakes.github.io/minimal-mistakes/about/
    - title: "Projects"
      url: "/projects/"
+   - title: Gallery
+     url: "/gallery/"
    - title: "Code"
      url: "/portfolio/" #code#
    - title: "CV"
