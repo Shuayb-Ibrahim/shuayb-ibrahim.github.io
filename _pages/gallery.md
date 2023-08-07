@@ -2,7 +2,7 @@
 title: "Data Viz Gallery"
 layout: collection
 permalink: /gallery/
-collection: portfolio
+collection: gallery
 entries_layout: grid
 author_profile: true
 ---
