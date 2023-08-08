@@ -19,4 +19,4 @@ gallery:
     title: "TEST 3"
 ---
 
-{% include gallery id="gallery" class="full" %}
+{% include gallery id="gallery" layout="half" class="full" %}
