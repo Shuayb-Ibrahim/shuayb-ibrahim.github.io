@@ -220,7 +220,9 @@ figure {
   .fluid-width-video-wrapper {
     margin-bottom: 1em;
     &:hover {
+      color: black;
       opacity: 0.5;
+      transition: opacity 0.25s;
     }
   }
 
