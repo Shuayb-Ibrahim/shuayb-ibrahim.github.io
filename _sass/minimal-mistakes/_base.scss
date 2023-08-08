@@ -219,6 +219,9 @@ figure {
   iframe,
   .fluid-width-video-wrapper {
     margin-bottom: 1em;
+    &:hover {
+      opacity: 1;
+    }
   }
 
   img {
@@ -226,17 +229,10 @@ figure {
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
-    &:hover {
-      opacity: 0.5;
-    }
   }
 
   > a { //-------------------------CHANGE
-    //display: block;
-    &:hover {
-      color: $link-color-hover;
-      outline: 0;
-    }
+    display: block;
   }
 
   &.half {
