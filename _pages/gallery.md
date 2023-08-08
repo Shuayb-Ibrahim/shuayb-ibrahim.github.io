@@ -7,14 +7,14 @@ classes: wide
 gallery:
   - url: https://shuayb-ibrahim.github.io/code/SQL_Date_and_Time_Data_Types_and_Functions
     image_path: /r/viz/Deebo-Stacked-Chicklets.png
-    alt: "img 1"
-  - url: /r/viz/mvp-tracker.png
+    title: "How to: MVP Tracker via Basketball-Reference Data"
+- url: /r/viz/mvp-tracker.png
     image_path: /r/viz/mvp-tracker.png
-    alt: "img 2"
+    title: "img 2"
 gallery2:
   - url: /r/viz/sga-skill-curve-2020-23.png
     image_path: /r/viz/sga-skill-curve-2020-23.png
-    alt: "img 3"
+    title: "img 3"
 ---
 
 
