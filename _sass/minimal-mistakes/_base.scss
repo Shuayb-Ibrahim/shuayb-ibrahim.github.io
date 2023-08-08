@@ -221,8 +221,12 @@ figure {
   .overlay-title {
     margin-bottom: 1em;
     &:hover {
+<<<<<<< HEAD
       opacity: 0.5;
       transition: opacity 0.25s;
+=======
+      opacity: 1;
+>>>>>>> parent of ed4795f (test-5)
     }
   }
 
