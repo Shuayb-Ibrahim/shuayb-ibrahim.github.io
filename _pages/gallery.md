@@ -5,7 +5,7 @@ permalink: /gallery/
 author_profile: true
 classes: wide
 gallery:
-  - url: /r/viz/Deebo-Stacked-Chicklets.png
+  - url: https://shuayb-ibrahim.github.io/code/SQL_Date_and_Time_Data_Types_and_Functions
     image_path: /r/viz/Deebo-Stacked-Chicklets.png
     alt: "img 1"
   - url: /r/viz/mvp-tracker.png
