@@ -228,8 +228,12 @@ figure {
     transition: $global-transition;
   }
 
-  > a {
+  > a { //-------------------------CHANGE
     display: block;
+    &:hover {
+      color: $link-color-hover;
+      outline: 0;
+    }
   }
 
   &.half {
