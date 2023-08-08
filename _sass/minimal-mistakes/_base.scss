@@ -226,6 +226,9 @@ figure {
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
+    &:hover {
+      opacity: 0.5;
+    }
   }
 
   > a { //-------------------------CHANGE
