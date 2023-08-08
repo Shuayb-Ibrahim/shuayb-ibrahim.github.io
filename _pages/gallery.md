@@ -18,6 +18,6 @@ gallery2:
 ---
 
 
-{% include gallery id="gallery" layout="half" class="full" %}
+{% include gallery id="gallery" layout="half" %}
 
-{% include gallery id="gallery2" class="full" %}
+{% include gallery id="gallery2" %}
