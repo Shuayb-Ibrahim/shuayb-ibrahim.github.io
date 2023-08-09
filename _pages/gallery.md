@@ -27,6 +27,13 @@ gallery3:
 gallery4:
   - url: /assets/images/posts/movies-casual-analysis/output_31_1.png
     image_path: /assets/images/posts/movies-casual-analysis/output_31_1.png 
+gallery5:
+  - url: assets/images/posts/unvaccinated-britain/output_38_1.png
+  image_path: assets/images/posts/unvaccinated-britain/output_38_1.png
+gallery6:
+- url: /assets/images/posts/unvaccinated-britain/output_49_0.png
+  image_path: /assets/images/posts/unvaccinated-britain/output_49_0.png
+
 ---
 
 
@@ -37,3 +44,7 @@ gallery4:
 {% include gallery id="gallery3" layout="half" %} 
 
 {% include gallery id="gallery4" %}
+
+{% include gallery id="gallery5" %}
+
+{% include gallery id="gallery6" %}
