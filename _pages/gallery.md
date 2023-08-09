@@ -23,4 +23,4 @@ gallery2:
 
 {% include gallery id="gallery" layout="half" %}
 
-{% include gallery id="gallery2" layout"wide"%}
+{% include gallery id="gallery2" layout"wide" %}
