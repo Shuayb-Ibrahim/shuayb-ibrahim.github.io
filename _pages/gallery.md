@@ -32,4 +32,4 @@ gallery3:
 
 {% include gallery id="gallery2" %}
 
-{% include gallery id="gallery3 %} 
+{% include gallery id="gallery3" %} 
