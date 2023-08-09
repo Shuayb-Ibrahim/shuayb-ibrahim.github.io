@@ -22,7 +22,7 @@
       <a href="{{ img.url | relative_url }}">
           <img src="{{ img.image_path | relative_url }}"
                alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-          <div class="overlay-title"></div>
+          <h3>{{ img.title }}<h3>
       </a>
     {% else %}
       <img src="{{ img.image_path | relative_url }}"
