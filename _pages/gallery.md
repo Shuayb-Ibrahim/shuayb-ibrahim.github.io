@@ -32,6 +32,11 @@ gallery4:
 gallery5:
   - url: /assets/images/posts/unvaccinated-britain/output_49_0.png
     image_path: /assets/images/posts/unvaccinated-britain/output_49_0.png
+gallery6:
+  - url: /assets/images/posts/unvaccinated-britain/output_40_0.png
+    image_path: /assets/images/posts/unvaccinated-britain/output_40_0.png
+  - url: /assets/images/posts/unvaccinated-britain/output_43_0.png
+    image_path: /assets/images/posts/unvaccinated-britain/output_43_0.png
 ---
 
 
@@ -44,3 +49,5 @@ gallery5:
 {% include gallery id="gallery4" %}
 
 {% include gallery id="gallery5" %}
+
+{% include gallery id="gallery5" layout="half %}
