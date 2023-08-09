@@ -22,18 +22,16 @@ gallery2:
 gallery3:
   - url: /assets/images/posts/movies-casual-analysis/output_28_0.png
     image_path: /assets/images/posts/movies-casual-analysis/output_28_0.png
+  - url: /assets/images/posts/movies-casual-analysis/output_31_1.png
+    image_path: /assets/images/posts/movies-casual-analysis/output_31_1.png 
   - url: /assets/images/posts/movies-casual-analysis/output_36_0.png
     image_path: /assets/images/posts/movies-casual-analysis/output_36_0.png
 gallery4:
-  - url: /assets/images/posts/movies-casual-analysis/output_31_1.png
-    image_path: /assets/images/posts/movies-casual-analysis/output_31_1.png 
-gallery5:
   - url: /assets/images/posts/unvaccinated-britain/output_38_1.png
     image_path: /assets/images/posts/unvaccinated-britain/output_38_1.png
-gallery6:
+gallery5:
   - url: /assets/images/posts/unvaccinated-britain/output_49_0.png
     image_path: /assets/images/posts/unvaccinated-britain/output_49_0.png
-
 ---
 
 
@@ -41,10 +39,8 @@ gallery6:
 
 {% include gallery id="gallery2" %}
 
-{% include gallery id="gallery3" layout="half" %} 
+{% include gallery id="gallery3" layout="third" %} 
 
 {% include gallery id="gallery4" %}
 
 {% include gallery id="gallery5" %}
-
-{% include gallery id="gallery6" %}
