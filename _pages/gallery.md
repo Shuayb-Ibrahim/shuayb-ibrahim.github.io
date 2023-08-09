@@ -4,8 +4,9 @@ layout: single
 permalink: /gallery/
 author_profile: true
 classes: wide
+class: full
 gallery:
-  - url: https://shuayb-ibrahim.github.io/code/SQL_Date_and_Time_Data_Types_and_Functions
+  - url: /r/viz/Deebo-Stacked-Chicklets.png
     image_path: /r/viz/Deebo-Stacked-Chicklets.png
     title: "How to: MVP Tracker via Basketball-Reference Data"
     description: "Made in R"
