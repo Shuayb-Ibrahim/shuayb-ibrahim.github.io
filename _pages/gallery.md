@@ -18,9 +18,18 @@ gallery2:
     image_path: /r/viz/sga-skill-curve-2020-23.png
     title: "img 3"
     description: "Made in R"
+gallery3:
+  - url: /assets/images/posts/movies-casual-analysis/output_28_0.png
+    image_path: /assets/images/posts/movies-casual-analysis/output_28_0.png
+  - url: /assets/images/posts/movies-casual-analysis/output_31_1.png
+    image_path: /assets/images/posts/movies-casual-analysis/output_31_1.png
+  - url: /assets/images/posts/movies-casual-analysis/output_36_0.png
+    image_path: /assets/images/posts/movies-casual-analysis/output_36_0.png 
 ---
 
 
 {% include gallery id="gallery" layout="half" %}
 
 {% include gallery id="gallery2" %}
+
+{% include gallery id="gallery3 %} 
