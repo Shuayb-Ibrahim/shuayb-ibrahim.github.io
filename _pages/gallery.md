@@ -21,10 +21,11 @@ gallery2:
 gallery3:
   - url: /assets/images/posts/movies-casual-analysis/output_28_0.png
     image_path: /assets/images/posts/movies-casual-analysis/output_28_0.png
-  - url: /assets/images/posts/movies-casual-analysis/output_31_1.png
-    image_path: /assets/images/posts/movies-casual-analysis/output_31_1.png
   - url: /assets/images/posts/movies-casual-analysis/output_36_0.png
-    image_path: /assets/images/posts/movies-casual-analysis/output_36_0.png 
+    image_path: /assets/images/posts/movies-casual-analysis/output_36_0.png
+gallery4:
+  - url: /assets/images/posts/movies-casual-analysis/output_31_1.png
+    image_path: /assets/images/posts/movies-casual-analysis/output_31_1.png 
 ---
 
 
@@ -32,4 +33,6 @@ gallery3:
 
 {% include gallery id="gallery2" %}
 
-{% include gallery id="gallery3" %} 
+{% include gallery id="gallery3" layout="half" %} 
+
+{% include gallery id="gallery4" %}
