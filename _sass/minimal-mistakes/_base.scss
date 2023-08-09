@@ -219,10 +219,10 @@
     iframe,
     .fluid-width-video-wrapper {
       margin-bottom: 1em;
-      &:hover {
-        opacity: 0;
-        transition: opacity 0.25s;
-      }
+      //&:hover {
+        //opacity: 0;
+        //transition: opacity 0.25s;
+      //}
     }
   
     img {
