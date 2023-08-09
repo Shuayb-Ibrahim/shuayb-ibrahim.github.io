@@ -50,4 +50,4 @@ gallery6:
 
 {% include gallery id="gallery5" %}
 
-{% include gallery id="gallery6" layout="half %}
+{% include gallery id="gallery6" layout="half" %}
