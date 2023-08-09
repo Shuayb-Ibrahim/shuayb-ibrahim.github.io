@@ -31,7 +31,7 @@ gallery5:
   - url: /assets/images/posts/unvaccinated-britain/output_38_1.png
   image_path: /assets/images/posts/unvaccinated-britain/output_38_1.png
 gallery6:
-- url: /assets/images/posts/unvaccinated-britain/output_49_0.png
+  - url: /assets/images/posts/unvaccinated-britain/output_49_0.png
   image_path: /assets/images/posts/unvaccinated-britain/output_49_0.png
 
 ---
