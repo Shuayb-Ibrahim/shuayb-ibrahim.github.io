@@ -19,10 +19,10 @@
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
     {% if img.url %}
-      <a href="{{ img.url | relative_url }}">
+      <a href="{{ img.url | relative_url }}"
+        {% if img.title} title="{{img.title}}"{%end if%} ></a>
           <img src="{{ img.image_path | relative_url }}"
                alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-          <h3>{{ img.title }}<h3>
       </a>
     {% else %}
       <img src="{{ img.image_path | relative_url }}"

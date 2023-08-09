@@ -219,11 +219,9 @@ figure {
   iframe,
   .fluid-width-video-wrapper {
     margin-bottom: 1em;
-
     &:hover {
-      opacity: 0.2;
+      opacity: 1;
     }
-
   }
   .overlay-title{
     color: white;
