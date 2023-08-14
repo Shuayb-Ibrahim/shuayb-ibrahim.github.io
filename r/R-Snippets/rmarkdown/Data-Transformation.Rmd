@@ -1,0 +1,39 @@
+---
+title: "Data-Transformation"
+author: "Shuayb Ibrahim"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction to dplyr
+
+The dplyr package is all you need for data preprocessing and we will be going through the syntax, uses and applications of its most common functions.
+
+### Prerequisites
+
+The library package we need to download is tidyverse as dpylr is a core member of the tidyverse. We shall also download the nycflights dataset to use an example dataset.
+
+```{r}
+library(tidyverse)
+library(nycflights13)
+```
+
+### View Dataset
+
+The two functions to use if you want to view a dataset are: 
+
+- The glimpse function (printed table with Row and Columns info)
+```{r}
+glimpse(flights)
+```
+
+-   The View function (interactive table pops up on RStudio)
+```{r}
+View(flights)
+```
+
+
