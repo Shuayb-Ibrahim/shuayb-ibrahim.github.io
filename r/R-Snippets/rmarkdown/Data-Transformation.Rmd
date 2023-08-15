@@ -280,7 +280,7 @@ In this section, we'll focus on the most important functions:
 
 #### group_by() function
 
-Use group_by() to divide your dataset into groups meaningful for your analysis:
+Use group_by() to divide your data set into groups meaningful for your analysis:
 
 ```{r}
 flights |> 
@@ -305,3 +305,26 @@ flights |>
 ```
 
 #### The slice\_ functions
+
+There are five handy functions that allow you extract specific rows within each group:
+
+-   `df |> slice_head(n = 1)` takes the first row from each group.
+
+-   `df |> slice_tail(n = 1)` takes the last row in each group.
+
+-   `df |> slice_min(x, n = 1)` takes the row with the smallest value of column `x`.
+
+-   `df |> slice_max(x, n = 1)` takes the row with the largest value of column `x`.
+
+-   `df |> slice_sample(n = 1)` takes one random row.
+
+You can vary `n` to select more than one row, or instead of `n =`, you can use `prop = 0.1` to select (e.g.) 10% of the rows in each group.
+
+```{r}
+flights |> 
+  group_by(dest) |> 
+  slice_max(arr_delay, n = 1) |>
+  relocate(dest)
+```
+
+#### Grouping by multiple variables
