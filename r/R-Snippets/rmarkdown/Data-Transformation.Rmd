@@ -24,16 +24,284 @@ library(nycflights13)
 
 ### View Dataset
 
-The two functions to use if you want to view a dataset are: 
+The two functions to use if you want to view a dataset are:
 
-- The glimpse function (printed table with Row and Columns info)
+-   The glimpse function (printed table with Row and Columns info)
+
 ```{r}
 glimpse(flights)
 ```
 
 -   The View function (interactive table pops up on RStudio)
+
 ```{r}
 View(flights)
 ```
 
+### Rows
 
+The three most important verbs (functions of a package) that operate on rows are:
+
+-   filter() - which changes which rows are present without changing order
+
+-   arrange() - which changes the order of the rows without changing which are present
+
+-   distinct() - which finds rows with unique values but unlike the other two functions, it can optionally modify the columns
+
+#### filter() function
+
+Filter allows you to keep rows based on the values of the columns. The function takes two arguments; the first is the data frame, the second is the condition that must be met to keep the row.
+
+```{r}
+flights %>% #pipe operator [alt. |> ]
+  filter(dep_delay > 120)
+```
+
+A list of other comparative operators are:
+
+-   \> (greater than)
+
+-   \>= (greater than or equal to)
+
+-   \< (less than)
+
+-   \<= (less than or equal to)
+
+-   != (not equal to)
+
+-   == (equal to)
+
+You can combine conditions using the following:
+
+-   & or , (and)
+
+-   \| (or)
+
+```{r}
+flights |> 
+  filter(month == 1 & day == 18)
+```
+
+A useful way of combing both \| and == is by using %in%. It keeps rows where the variable equals one of the values on the right:
+
+```{r}
+flights %>% 
+  filter(month %in% c(1,2))
+```
+
+#### arrange() function
+
+arrange() changes the order of the rows based on the values of the columns. It takes a data frame and a set of column names (or more complicated expressions) to order by. If you provide more than one column name, each additional column will be used to break ties in the value of proceeding columns.
+
+```{r}
+flights %>%
+  arrange(year, month, day, dep_time)
+```
+
+you can use desc() on a column inside of arrange to re-order the data frame based on that column in descending order (ascending order is the default in arrange).
+
+```{r}
+flights %>% 
+  arrange(desc(dep_delay))
+```
+
+#### distinct() function
+
+distinct() finds all the unique rows in a dataset, so in technical sense, it primarily operates on the rows. Most of the time, however, you'll want the distinct combination of variables, so you can optionally supply column names:
+
+```{r}
+flights %>% 
+  distinct(origin,dest)
+```
+
+Alternatively, if you want to the keep other columns when filtering for unique rows, you can use the `.keep_all = TRUE` option.
+
+```{r}
+flights %>% 
+  distinct(origin, dest, .keep_all=TRUE)
+```
+
+It's not a coincidence that all of these distinct flights are on January 1 - distinct() will find the first occurrence of a unique row in the dataset and discard the rest.
+
+If you want to find the number of occurances instead, use count() in combination with sort=TRUE argument to arrange them in descending order.
+
+```{r}
+flights %>% 
+  count(origin, dest, sort = TRUE)
+```
+
+### Columns
+
+There are four important verbs that affect the columns without changing the rows:
+
+-   mutate() - creates new columns that are derived from the existing columns
+
+-   select() - changes which columns are present
+
+-   rename() - changes the names of the columns
+
+-   relocate() - changes the positions of the columns
+
+#### mutate() function
+
+mutate() is to add new columns that are calculated from the existing columns.
+
+```{r}
+flights %>%
+  mutate(
+    gain = dep_delay - arr_delay,
+    speed = distance/ air_time * 60
+  )
+```
+
+By default, the function adds new columns on the RHS of your dataset, which makes it difficult to see what's happening here. We can use the .before argument to instead add the variables to the LHS.
+
+```{r}
+flights %>%
+  mutate(
+    gain = dep_delay - arr_delay,
+    speed = distance/ air_time * 60,
+    .before = 1
+  )
+```
+
+You can also use .after to add after a variable and in both .before and .after, you can use the variable name instead of a position.
+
+```{r}
+flights |> 
+  mutate(
+    gain = dep_delay - arr_delay,
+    speed = distance / air_time * 60,
+    .after = day
+  )
+```
+
+Alternatively, you can control which variables are kept with the .keep argument. A particularly useful argument is "used" which specifies that we only keep the columns that were involved or created in the mutate() step.
+
+```{r}
+flights |> 
+  mutate(
+    gain = dep_delay - arr_delay,
+    hours = air_time / 60,
+    gain_per_hour = gain / hours,
+    .keep = "used"
+  )
+```
+
+#### select() function
+
+select() allows you to rapidly zoom in on a useful subset using operations based on the names of the variables:
+
+-   Select columns by name:
+
+    ```{r}
+    flights %>% 
+      select(year, month, day)
+    ```
+
+-   Select all columns between year and day (inclusive):
+
+    ```{r}
+    flights |> 
+      select(year:day)
+    ```
+
+-   Select all columns except those from year to day (inclusive):
+
+    ```{r}
+    flights |> 
+      select(!year:day)
+    ```
+
+-   Select all columns that are characters:
+
+    ```{r}
+    flights |> 
+      select(where(is.character))
+    ```
+
+    -   where() - a function that returns TRUE or FALSE
+
+There are a number of helper functions you can use within select():
+
+-   starts_with("abc") : matches names that begin with "abc"
+
+-   ends_with("xyz") : matches names that end with "xyz"
+
+-   contains("mno") : matches names that contains "mno"
+
+-   num_range("x",1:3) : matches x1, x2, x3
+
+You can rename variables as you `select()` them by using `=`. The new name appears on the left hand side of the `=`, and the old variable appears on the right hand side:
+
+```{r}
+flights |> 
+  select(tail_num = tailnum)
+```
+
+#### rename() function
+
+If you want to keep all the existing variables and just want to rename a few, you can use rename() instead of select():
+
+```{r}
+flights |> 
+  rename(tail_num = tailnum)
+```
+
+If you have a bunch of inconsistently named columns and it would be painful to fix them all by hand, check out [`janitor::clean_names()`](https://sfirke.github.io/janitor/reference/clean_names.html)which provides some useful automated cleaning.
+
+#### relocate() function
+
+Use relocate() to move variables around. You might want to collect related variables together or move important variables to the front. By default relocate() moves variables to the front:
+
+```{r}
+flights %>% 
+  relocate(time_hour, air_time)
+```
+
+You can also specify where to put them using .before and .after arguments, just like in mutate():
+
+```{r}
+flights |> 
+  relocate(year:dep_time, .after = time_hour)
+flights |> 
+  relocate(starts_with("arr"), .before = dep_time)
+```
+
+### Groups 
+
+In this section, we'll focus on the most important functions:
+
+-   group_by()
+
+-   summarize()
+
+-   the slice\_ functions
+
+#### group_by() function
+
+Use group_by() to divide your dataset into groups meaningful for your analysis:
+
+```{r}
+flights |> 
+  group_by(month)
+```
+
+[`group_by()`](https://dplyr.tidyverse.org/reference/group_by.html) doesn\'t change the data but, if you look closely at the output, you\'ll notice that the output indicates that it is \"grouped by\" month (`Groups: month [12]`).
+
+#### summarize() function
+
+The most important grouped operation is a summary, which, if being used to calculate a single summary statistics, reduces the data frame to have a single row for each group.
+
+```{r}
+flights |>
+  group_by(month) |> 
+    summarise(
+      avg_delay = mean(dep_delay,na.rm = TRUE),
+      n = n()
+    )
+# na.rm argument = remove missing data (n/a values)
+#n() = no. of rows
+```
+
+#### The slice\_ functions
