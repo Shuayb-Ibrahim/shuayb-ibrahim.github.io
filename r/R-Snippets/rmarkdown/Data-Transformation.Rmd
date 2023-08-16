@@ -268,7 +268,7 @@ flights |>
   relocate(starts_with("arr"), .before = dep_time)
 ```
 
-### Groups 
+### Groups
 
 In this section, we'll focus on the most important functions:
 
@@ -287,7 +287,7 @@ flights |>
   group_by(month)
 ```
 
-[`group_by()`](https://dplyr.tidyverse.org/reference/group_by.html) doesn\'t change the data but, if you look closely at the output, you\'ll notice that the output indicates that it is \"grouped by\" month (`Groups: month [12]`).
+[`group_by()`](https://dplyr.tidyverse.org/reference/group_by.html) doesn't change the data but, if you look closely at the output, you'll notice that the output indicates that it is "grouped by" month (`Groups: month [12]`).
 
 #### summarize() function
 
