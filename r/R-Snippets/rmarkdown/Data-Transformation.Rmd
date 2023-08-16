@@ -328,3 +328,57 @@ flights |>
 ```
 
 #### Grouping by multiple variables
+
+You can create groups using more than one variable:
+
+```{r}
+flights |> 
+  group_by(year, month, day)
+```
+
+Using the group_by function alone to group multiple variables is not the best as each summary peels off the last group.
+
+The solution to that problem:
+
+```{r}
+flights |> 
+  group_by(year, month, day) |> 
+  summarise(
+    n = n(),
+    .groups = "drop_last"
+  )
+```
+
+#### Ungrouping
+
+To remove grouping from a data frame without using summarise(), you can do this with the ungroup() method:
+
+```{r}
+flights |> 
+  group_by(year, month, day) |> 
+  ungroup()
+```
+
+#### .by
+
+dplyr includes a new syntax for pre-operation grouping, the .by argument within summarise(). It is a new alternative to the group_by() function.
+
+```{r}
+flights |> 
+  summarize(
+    delay = mean(dep_delay, na.rm = TRUE), 
+    n = n(),
+    .by = month
+  )
+```
+
+Or if you wish to group by multiple variables:
+
+```{r}
+flights |> 
+  summarize(
+    delay = mean(dep_delay, na.rm = TRUE), 
+    n = n(),
+    .by = c(origin, dest)
+  )
+```
