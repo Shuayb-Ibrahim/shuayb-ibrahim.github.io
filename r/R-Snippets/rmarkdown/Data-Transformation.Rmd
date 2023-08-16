@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction to dplyr
 
-The dplyr package is all you need for data preprocessing and we will be going through the syntax, uses and applications of its most common functions.
+The dplyr package is all you need for data pre-processing and we will be going through the syntax, uses and applications of its most common functions.
 
 ### Prerequisites
 
@@ -123,7 +123,7 @@ flights %>%
 
 It's not a coincidence that all of these distinct flights are on January 1 - distinct() will find the first occurrence of a unique row in the dataset and discard the rest.
 
-If you want to find the number of occurances instead, use count() in combination with sort=TRUE argument to arrange them in descending order.
+If you want to find the number of occurrences instead, use count() in combination with sort=TRUE argument to arrange them in descending order.
 
 ```{r}
 flights %>% 
