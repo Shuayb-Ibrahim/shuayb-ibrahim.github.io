@@ -1,8 +1,12 @@
 ---
-title: "Data-Transformation"
+title: "Data Transformation"
 author: "Shuayb Ibrahim"
 date: "`r Sys.Date()`"
 output: html_document
+layout: archive
+permalink: /code/Data-Transformation
+redirect_from: Data-Transformation
+author_profile: true
 ---
 
 ```{r setup, include=FALSE}

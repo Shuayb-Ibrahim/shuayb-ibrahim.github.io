@@ -11,4 +11,4 @@ My R code snippets are inspired by the Book, R for Data Science and it follows i
 - [Coding Basics](/code/Coding-Basics)
 - [Exploring Data](/code/Exploring-Data)
 - [Packages](/code/Packages)
-
+- [Data Transformation](/code/Data-Transformation)
