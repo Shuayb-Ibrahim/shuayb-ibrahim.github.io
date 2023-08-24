@@ -5,7 +5,6 @@ permalink: /code/Data-Transformation
 author_profile: true
 redirect_from: Data-Transformation
 ---
-## Data Transformation
 
 The dplyr package is all you need for data pre-processing and we will be going through the syntax, uses and applications of its most common functions.
 
