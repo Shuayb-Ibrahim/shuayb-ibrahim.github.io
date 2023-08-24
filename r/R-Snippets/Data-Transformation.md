@@ -5,12 +5,6 @@ permalink: /code/Data-Transformation
 author_profile: true
 redirect_from: Data-Transformation
 ---
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Data Transformation
 
 The dplyr package is all you need for data pre-processing and we will be going through the syntax, uses and applications of its most common functions.
@@ -19,7 +13,7 @@ The dplyr package is all you need for data pre-processing and we will be going t
 
 The library package we need to download is tidyverse as dpylr is a core member of the tidyverse. We shall also download the nycflights dataset to use an example dataset.
 
-```{r}
+```r
 library(tidyverse)
 library(nycflights13)
 ```
@@ -30,13 +24,13 @@ The two functions to use if you want to view a dataset are:
 
 -   The glimpse function (printed table with Row and Columns info)
 
-```{r}
+```r
 glimpse(flights)
 ```
 
 -   The View function (interactive table pops up on RStudio)
 
-```{r}
+```r
 View(flights)
 ```
 
@@ -54,7 +48,7 @@ The three most important verbs (functions of a package) that operate on rows are
 
 Filter allows you to keep rows based on the values of the columns. The function takes two arguments; the first is the data frame, the second is the condition that must be met to keep the row.
 
-```{r}
+```r
 flights %>% #pipe operator [alt. |> ]
   filter(dep_delay > 120)
 ```
@@ -79,14 +73,14 @@ You can combine conditions using the following:
 
 -   \| (or)
 
-```{r}
+```r
 flights |> 
   filter(month == 1 & day == 18)
 ```
 
 A useful way of combing both \| and == is by using %in%. It keeps rows where the variable equals one of the values on the right:
 
-```{r}
+```r
 flights %>% 
   filter(month %in% c(1,2))
 ```
@@ -95,14 +89,14 @@ flights %>%
 
 arrange() changes the order of the rows based on the values of the columns. It takes a data frame and a set of column names (or more complicated expressions) to order by. If you provide more than one column name, each additional column will be used to break ties in the value of proceeding columns.
 
-```{r}
+```r
 flights %>%
   arrange(year, month, day, dep_time)
 ```
 
 you can use desc() on a column inside of arrange to re-order the data frame based on that column in descending order (ascending order is the default in arrange).
 
-```{r}
+```r
 flights %>% 
   arrange(desc(dep_delay))
 ```
@@ -111,14 +105,14 @@ flights %>%
 
 distinct() finds all the unique rows in a dataset, so in technical sense, it primarily operates on the rows. Most of the time, however, you'll want the distinct combination of variables, so you can optionally supply column names:
 
-```{r}
+```r
 flights %>% 
   distinct(origin,dest)
 ```
 
 Alternatively, if you want to the keep other columns when filtering for unique rows, you can use the `.keep_all = TRUE` option.
 
-```{r}
+```r
 flights %>% 
   distinct(origin, dest, .keep_all=TRUE)
 ```
@@ -127,7 +121,7 @@ It's not a coincidence that all of these distinct flights are on January 1 - dis
 
 If you want to find the number of occurrences instead, use count() in combination with sort=TRUE argument to arrange them in descending order.
 
-```{r}
+```r
 flights %>% 
   count(origin, dest, sort = TRUE)
 ```
@@ -148,7 +142,7 @@ There are four important verbs that affect the columns without changing the rows
 
 mutate() is to add new columns that are calculated from the existing columns.
 
-```{r}
+```r
 flights %>%
   mutate(
     gain = dep_delay - arr_delay,
@@ -158,7 +152,7 @@ flights %>%
 
 By default, the function adds new columns on the RHS of your dataset, which makes it difficult to see what's happening here. We can use the .before argument to instead add the variables to the LHS.
 
-```{r}
+```r
 flights %>%
   mutate(
     gain = dep_delay - arr_delay,
@@ -169,7 +163,7 @@ flights %>%
 
 You can also use .after to add after a variable and in both .before and .after, you can use the variable name instead of a position.
 
-```{r}
+```r
 flights |> 
   mutate(
     gain = dep_delay - arr_delay,
@@ -180,7 +174,7 @@ flights |>
 
 Alternatively, you can control which variables are kept with the .keep argument. A particularly useful argument is "used" which specifies that we only keep the columns that were involved or created in the mutate() step.
 
-```{r}
+```r
 flights |> 
   mutate(
     gain = dep_delay - arr_delay,
@@ -196,28 +190,28 @@ select() allows you to rapidly zoom in on a useful subset using operations based
 
 -   Select columns by name:
 
-    ```{r}
+    ```r
     flights %>% 
       select(year, month, day)
     ```
 
 -   Select all columns between year and day (inclusive):
 
-    ```{r}
+    ```r
     flights |> 
       select(year:day)
     ```
 
 -   Select all columns except those from year to day (inclusive):
 
-    ```{r}
+    ```r
     flights |> 
       select(!year:day)
     ```
 
 -   Select all columns that are characters:
 
-    ```{r}
+    ```r
     flights |> 
       select(where(is.character))
     ```
@@ -236,7 +230,7 @@ There are a number of helper functions you can use within select():
 
 You can rename variables as you `select()` them by using `=`. The new name appears on the left hand side of the `=`, and the old variable appears on the right hand side:
 
-```{r}
+```r
 flights |> 
   select(tail_num = tailnum)
 ```
@@ -245,7 +239,7 @@ flights |>
 
 If you want to keep all the existing variables and just want to rename a few, you can use rename() instead of select():
 
-```{r}
+```r
 flights |> 
   rename(tail_num = tailnum)
 ```
@@ -256,14 +250,14 @@ If you have a bunch of inconsistently named columns and it would be painful to f
 
 Use relocate() to move variables around. You might want to collect related variables together or move important variables to the front. By default relocate() moves variables to the front:
 
-```{r}
+```r
 flights %>% 
   relocate(time_hour, air_time)
 ```
 
 You can also specify where to put them using .before and .after arguments, just like in mutate():
 
-```{r}
+```r
 flights |> 
   relocate(year:dep_time, .after = time_hour)
 flights |> 
@@ -284,7 +278,7 @@ In this section, we'll focus on the most important functions:
 
 Use group_by() to divide your data set into groups meaningful for your analysis:
 
-```{r}
+```r
 flights |> 
   group_by(month)
 ```
@@ -295,7 +289,7 @@ flights |>
 
 The most important grouped operation is a summary, which, if being used to calculate a single summary statistics, reduces the data frame to have a single row for each group.
 
-```{r}
+```r
 flights |>
   group_by(month) |> 
     summarise(
@@ -322,7 +316,7 @@ There are five handy functions that allow you extract specific rows within each 
 
 You can vary `n` to select more than one row, or instead of `n =`, you can use `prop = 0.1` to select (e.g.) 10% of the rows in each group.
 
-```{r}
+```r
 flights |> 
   group_by(dest) |> 
   slice_max(arr_delay, n = 1) |>
@@ -333,7 +327,7 @@ flights |>
 
 You can create groups using more than one variable:
 
-```{r}
+```r
 flights |> 
   group_by(year, month, day)
 ```
@@ -342,7 +336,7 @@ Using the group_by function alone to group multiple variables is not the best as
 
 The solution to that problem:
 
-```{r}
+```r
 flights |> 
   group_by(year, month, day) |> 
   summarise(
@@ -355,7 +349,7 @@ flights |>
 
 To remove grouping from a data frame without using summarise(), you can do this with the ungroup() method:
 
-```{r}
+```r
 flights |> 
   group_by(year, month, day) |> 
   ungroup()
@@ -365,7 +359,7 @@ flights |>
 
 dplyr includes a new syntax for pre-operation grouping, the .by argument within summarise(). It is a new alternative to the group_by() function.
 
-```{r}
+```r
 flights |> 
   summarize(
     delay = mean(dep_delay, na.rm = TRUE), 
@@ -376,7 +370,7 @@ flights |>
 
 Or if you wish to group by multiple variables:
 
-```{r}
+```r
 flights |> 
   summarize(
     delay = mean(dep_delay, na.rm = TRUE), 
