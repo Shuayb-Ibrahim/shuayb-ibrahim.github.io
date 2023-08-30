@@ -8,9 +8,9 @@ My R code snippets are inspired by the Book, R for Data Science and it follows i
 <hr>
 
 ### R Basics
-## [Coding Basics](/code/Coding-Basics)
-## [Exploring Data](/code/Exploring-Data)
-## [Packages](/code/Packages)
+## [Coding Basics - Calling Functions and Creating New Objects](/code/Coding-Basics)
+## [Common Built-in Functions For Exploring Data](/code/Exploring-Data)
+## [Installing and Loading New Packages](/code/Packages)
 
 ### Preprocessing
 ## [Data Transformation](/code/Data-Transformation)
