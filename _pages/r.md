@@ -13,5 +13,5 @@ My R code snippets are inspired by the Book, R for Data Science and it follows i
 ## [Installing and Loading New Packages](/code/Packages)
 
 ### Preprocessing
-## [Data Transformation](/code/Data-Transformation)
-## [Data Tidying](/code/Data-Tidying)
+## [Data Transformation using dplyr](/code/Data-Transformation)
+## [Data Tidying using tidyr](/code/Data-Tidying)
