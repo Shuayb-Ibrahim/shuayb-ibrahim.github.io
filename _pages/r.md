@@ -1,6 +1,7 @@
 ---
 title: R Code Snippets
-layout: single
+layout: archive
+classes: wide
 permalink: /r/
 author_profile: true
 ---
