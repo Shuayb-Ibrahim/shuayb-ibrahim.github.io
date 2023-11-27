@@ -24,3 +24,7 @@ Student ID,Full Name,favourite.food,mealPlan,AGE
 5,Chidiegwu Dunkel,Pizza,Breakfast and lunch,five
 6,Güvenç Attila,Ice cream,Lunch only,6
 ```
+To read a csv file, we use the function read_csv(). For example:
+```r
+students <- read_csv("https://pos.it/r4ds-students-csv")
+```
