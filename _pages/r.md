@@ -16,3 +16,4 @@ My R code snippets are inspired by the Book, R for Data Science and it follows i
 ### Preprocessing
 - [Data Transformation using dplyr](/code/Data-Transformation)
 -  [Data Tidying using tidyr](/code/Data-Tidying)
+- [Data Imports](/r/R-Snippets/Data-Import.md)
